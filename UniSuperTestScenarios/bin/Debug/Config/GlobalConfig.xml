@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AutomationFramework>
+  <RunSettings>
+    <AppUrl>http://todomvc.com/</AppUrl>    
+    <TestType></TestType>
+    <AQATestDB>Data Source=xxxx; Initial Catalog=xxx;User id=sa;Password=xxxxx</AQATestDB>
+    <AppDB></AppDB>
+    <BrowserType>Chrome</BrowserType>
+    <Build></Build>
+    <IsLog></IsLog>
+    <LogPath>AutoTestRunLogs\</LogPath>
+    <LogFileName></LogFileName>
+  </RunSettings>  
+</AutomationFramework>
