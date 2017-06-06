@@ -1,12 +1,12 @@
 # UniSuper
-Test Scenarios Implementedfor http://todomvc.com
+Some simple test scenarios implemented on http://todomvc.com
   1. I want to add a To-do item
   2. I want to edit the content of an existing To-do item
   3. I can complete a To-do by clicking inside the circle UI to the left of the To-do
   4. I can re-activate a completed To-do by clicking inside the circle UI
   5.  	I can add a second To-do
   6. I can complete all active To-dos by clicking the down arrow at the top-left of the UI
-  7. I can 	
+  7. I can filter the visible To-dos by Completed state	
   8. I can clear a single To-do item from the list completely by clicking the Close icon.
   9. I can clear all completed To-do items from the list completely
 
@@ -38,6 +38,6 @@ in there change the <BrowserType>Chrome</BrowserType> to <BrowserType>Fireox</Br
 The accepted values here are 
 1. Chrome
 2. FireFox
-3. Internet Explorer
+3. InternetExplorer
 
 All the test config settings are stored in this Global.xml file
