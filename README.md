@@ -37,7 +37,7 @@ By default these test run on Chrome due to the preset configuration settings. To
 in there change the <BrowserType>Chrome</BrowserType> to <BrowserType>Fireox</BrowserType> to run on firefox
 The accepted values here are 
 1. Chrome
-2. Firefox
-3. Internet explored
+2. FireFox
+3. Internet Explorer
 
 All the test config settings are stored in this Global.xml file
