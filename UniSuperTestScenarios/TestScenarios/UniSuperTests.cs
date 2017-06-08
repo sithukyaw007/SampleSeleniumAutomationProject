@@ -122,7 +122,7 @@ namespace UniSuperTestScenarios.TestScenarios
             }
         }
 
-        [TestCleanup]
+        //[TestCleanup]
         public void CleanDriver()
         {
             if (DriverContext.Driver != null)

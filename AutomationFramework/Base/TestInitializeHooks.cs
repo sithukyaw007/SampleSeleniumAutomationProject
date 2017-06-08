@@ -34,7 +34,10 @@ namespace AutomationFramework.Base
                     DriverContext.WebBrowser = new Browser(DriverContext.Driver);
                     break;
                 case BrowserType.Chrome:
-                    DriverContext.Driver = new ChromeDriver();                    
+                    ChromeOptions chromeOptions = new ChromeOptions();
+                    chromeOptions.AddArguments("test-type");
+                    chromeOptions.AddArguments("start-maximized");
+                    DriverContext.Driver = new ChromeDriver(chromeOptions);                    
                     DriverContext.WebBrowser = new Browser(DriverContext.Driver);                    
                     break;                
                 default:
