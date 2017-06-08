@@ -20,7 +20,6 @@ Also I have not completely used Data Driven testing by storing my test data in t
 reason.
 In ideal case I would have used SpecFlow for TDD instead of clubbing all test cases as one and have built my scenarios  
 accordingly using Hybrid framework.
-The tests will run on Browser not maximized mode as I have not implemented driver.Manage().Window.Maximize() in my code as it was failing and I am investigating the issue.
 
 How to run the above 9 Test Scenarios : 
 
