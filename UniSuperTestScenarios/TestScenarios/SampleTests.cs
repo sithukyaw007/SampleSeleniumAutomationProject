@@ -8,13 +8,13 @@ using System.Collections.Generic;
 using System.Data;
 using System;
 
-namespace UniSuperTestScenarios.TestScenarios
+namespace TestScenarios.TestScenarios
 {
     /// <summary>
     /// Summary description for TestDataAccess
     /// </summary>
     [TestClass]
-    public class UniSuperTests : HookInitialize
+    public class SampleTests : HookInitialize
     {               
         [TestMethod]
         public void TestScenarios()
