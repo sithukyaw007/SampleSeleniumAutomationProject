@@ -26,11 +26,15 @@ namespace AutomationFramework.Base
             switch (browserType)
             {
                 case BrowserType.InternetExplorer:
+                    //InternetExplorerOptions
                     DriverContext.Driver = new InternetExplorerDriver();                    
                     DriverContext.WebBrowser = new Browser(DriverContext.Driver);
                     break;
                 case BrowserType.FireFox:
-                    DriverContext.Driver = new FirefoxDriver();                    
+                    FirefoxOptions firefoxOptions = new FirefoxOptions();
+                    firefoxOptions.AddArgument("test-type");
+                    firefoxOptions.AddArgument("start-maximized");
+                    DriverContext.Driver = new FirefoxDriver(firefoxOptions);                    
                     DriverContext.WebBrowser = new Browser(DriverContext.Driver);
                     break;
                 case BrowserType.Chrome:
